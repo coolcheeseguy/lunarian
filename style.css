@@ -1,0 +1,71 @@
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+h1, h2 {
+  color: #f0f0f0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+input[type="text"] {
+  padding: 10px;
+  margin: 5px 0;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #2ecc71;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #27ae60;
+}
+
+/* Space-themed elements */
+body {
+  background-image: url('space_bg.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+section {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
